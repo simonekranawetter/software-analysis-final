@@ -7,8 +7,10 @@ That is knowledge the customer doesn't have, but it's your job as a developer to
 
 ## Requirements
 
-+ You are contracted to build a system to handle courses. A user should be able to regiser and log in with email and password.
-+ In the system there's even administratiors. Those administrators are added by a system administrator or by other administrators with the right administrative roles.
+You are contracted to build a system to handle courses.
+
++ A user should be able to regiser and log in with email and password.
++ In the system there's even administrators. Those administrators are added by a system administrator or by other administrators with the right administrative roles.
 + Systemadmin has an account from the start and is a non-removable role without first assigning system admin to another admin.
 
 + Admins should be able to add lecturers to the system and add users and admin users.
