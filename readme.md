@@ -41,3 +41,7 @@ That is knowledge the customer doesn't have, but it's your job as a developer to
 ### Additional features added
 
 Decided to learn Mermaid for this to be able to post this to github instead of uploading a pdf file for my teacher to grade.
+
+#### Known issues
+
+I am aware that the last part of the sequence diagrams refers to a database, sadly this was not available in sequence diagrams with mermaid at the moment. Looking into implementing this feature since it's open source.
