@@ -1,19 +1,19 @@
-# New User Signup
+# Existing User Signup
 
 ## User story
 
-**As a new user** on the site, **I want to** be able register an account, **so that I can** access the content availabe to standard users on the site.
+**As an existing user** on the site, **I want to** be able to log into my account, **so that I can** access the content availabe to me according the my level of access.
 
 ## Activity Diagram
 
 ```mermaid
 flowchart TD
-    Start((Start)) ==> LogInView(Log In View)
-    LogInView ==> If{Has an account}
-    If --true--> SignIn(Sign in)
-    SignIn --> End((X))
-    If --false--> RegisterNewUserView(Register New User View)
-    RegisterNewUserView --> Sync(This is just a placeholder for simultanious action)
+    Start((Start)) ==> LogIn(Log In)
+    LogIn ==> If{User has account}
+    If --false--> SignUp(Sign Up)
+    SignUp --> End((X))
+    If --true--> LogInView(Log in View)
+    LogInView --> Sync(This is just a placeholder for simultanious action)
     Sync --> Email(Fill in Email)
     Sync --> Password(Fill in Password)
     Email --> ValidateEmail(Validate Email)
@@ -22,10 +22,15 @@ flowchart TD
     ValidatePassword --> SyncEnd
     SyncEnd --> SubmitForm(Submit Form)
     SubmitForm -->EntriesValid{Input valid}
-    EntriesValid --true--> CreateUser(CreateUser)
-    EntriesValid --false --> ErrorMessage(ErrorMessage)
-    ErrorMessage -->RegisterNewUserView
-    CreateUser --> GenernateJWT(Generate JWT)
+    EntriesValid --true--> UserExists{User Exists in DB}
+    UserExists --false--> ErrorMessage(ErrorMessage)
+    ErrorMessage --redirect user to --> SignUp
+    EntriesValid --false --> Merge{ }
+    Merge --> DisplayError(Display Error in Form)
+    DisplayError --> LogInView
+    UserExists --true--> ValidPassword{password is valid}
+    ValidPassword --true--> GenernateJWT(Generate JWT)
+    ValidPassword --false--> Merge
     GenernateJWT --> Sync2(This is just a placeholder for simultanious action)
     Sync2 --> LogInUser(LogInUser)
     Sync2 --> SendJWT(Send JWT)
@@ -47,7 +52,7 @@ flowchart TD
     style StoreJWT stroke:none
 
     style ErrorMessage stroke:#f44336
-
+    style DisplayError stroke:#f44336
 
     style Sync fill:#000,stroke:#000,stroke-width:2px,color:#000
     style SyncEnd fill:#000,stroke:#000,stroke-width:2px,color:#000
@@ -70,12 +75,16 @@ sequenceDiagram
     S-->>S: Validate Password
     U->>S: Submit Form
     S->>A: HTTP Request
-    A-->>A: Validate Email
-    A->>A: Validate Password
-    A->>D: Register user in DB
-    D-->>A: User saved
+    alt user exists in DB
+    A->>D: Get User by Email
+    D-->>A:  
     A-->>A: Generate JWT token
     A-->>A: Log in user
     A-->>D: Save JWT
     A-->>S: 200 OK JWT
+    else user does not exist
+    A->>D: Get User by Email
+    D-->>A:  
+    A-->>S: 404 User Not Found
+    end
 ```
