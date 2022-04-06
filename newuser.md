@@ -60,5 +60,22 @@ flowchart TD
 
 ```mermaid
 sequenceDiagram 
-actor User
+    actor U as User
+    participant S as System
+    participant A as WebAPI
+    participant D as Database
+    U->>S: Enter Email
+    S-->>S: Validate Email
+    U->>S: Enter Password
+    S-->>S: Validate Password
+    U->>S: Submit Form
+    S->>A: HTTP Request
+    A->>A: Validate Email
+    A->>A: Validate Password
+    A->>D: Register user in DB
+    D-->>A: User saved
+    A-->>A: Generate JWT token
+    A-->>A: Log in user
+    A-->>D: Save JWT
+    A-->>S: 200 OK JWT
 ```
