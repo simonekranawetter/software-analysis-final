@@ -75,3 +75,26 @@ sequenceDiagram
     A-->>S: 200 OK JWT
     S->>U: Display Admin Menu
 ```
+
+## Use Case Diagram
+
+<!--
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor user
+actor webapi
+
+rectangle AdminMenu {
+ (user) -- (admin menu)
+ (admin menu) .> (register new course) : extends
+ (admin menu) .> (add lecturer) : extends
+ (admin menu) .> (edit course) : extends
+ (user) -- (submit form)
+ (submit form) .> (validate form) : include
+ (submit form) -- (webapi)
+ (admin menu) <-- (webapi)
+}
+@enduml
+-->
+![](images/admin.jpg)

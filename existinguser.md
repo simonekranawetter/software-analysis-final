@@ -88,6 +88,8 @@ sequenceDiagram
     A-->>S: 404 User Not Found
     end
 ```
+
+## Use Case Diagram
 <!--
 @startuml 
 left to right direction

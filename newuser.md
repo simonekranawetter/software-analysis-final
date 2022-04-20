@@ -79,3 +79,23 @@ sequenceDiagram
     A-->>D: Save JWT
     A-->>S: 200 OK JWT
 ```
+
+## Use Case Diagram
+<!--
+@startuml 
+left to right direction
+skinparam packageStyle rectangle
+actor user
+actor webapi
+
+rectangle SignUp {
+ (user) -- (fill out form)
+ (fill out form) .> (validate fields) : include
+ (fill out form) .> (existing user) : extends
+ (user) -- (submit form)
+ (submit form) .> (validate form) : include
+ (submit form) -- (webapi)
+}
+@enduml
+-->
+![](images/newuser.jpg)
