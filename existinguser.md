@@ -88,3 +88,21 @@ sequenceDiagram
     A-->>S: 404 User Not Found
     end
 ```
+<!--
+@startuml 
+left to right direction
+skinparam packageStyle rectangle
+actor user
+actor webapi
+
+rectangle SignIn {
+ (user) -- (fill out form)
+ (fill out form) .> (validate fields) : include
+ (fill out form) .> (register) : extends
+ (user) -- (submit form)
+ (submit form) .> (validate form) : include
+ (submit form) -- (webapi)
+}
+@enduml
+-->
+![](images/existinguser.jpg)
