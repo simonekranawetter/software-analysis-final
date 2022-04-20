@@ -47,3 +47,5 @@ Decided to learn Mermaid for this to be able to post this to github instead of u
 #### Known issues
 
 I am aware that the last part of the sequence diagrams refers to a database, sadly this was not available in sequence diagrams with mermaid at the moment. Looking into implementing this feature since it's open source.
+
+Right now there is no use case diagram available in mermaid, so those are added as images with the plantUML code commented into the markdown file.
