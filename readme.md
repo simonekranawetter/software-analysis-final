@@ -44,8 +44,8 @@ You are contracted to build a system to handle courses.
 
 Decided to learn Mermaid for this to be able to post this to github instead of uploading a pdf file for my teacher to grade.
 
-#### Known issues
+### Known issues due to missing features in mermaid
 
-I am aware that the last part of the sequence diagrams refers to a database, sadly this was not available in sequence diagrams with mermaid at the moment. Looking into implementing this feature since it's open source.
+I am aware that the last part of the sequence diagrams refers to a database. Database symbol is not available in mermaid yet.
 
 Right now there is no use case diagram available in mermaid, so those are added as images with the plantUML code commented into the markdown file.
