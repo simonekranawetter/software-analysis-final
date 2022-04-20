@@ -67,20 +67,11 @@ sequenceDiagram
     participant D as Database
     U->>S: Submit Login
     S->>A: HTTP Request
-    alt user is admin
     A->>D: Get User by Email
     D-->>A: return user info with correct role
     A-->>A: Generate JWT token
     A-->>A: Log in user with admin menu
     A-->>D: Save JWT
     A-->>S: 200 OK JWT
-    else user is not admin
-    A->>D: Get User by Email
-    D-->>A: return user info with correct role 
-    A-->>A: Generate JWT token
-    A-->>A: Log in user with user menu
-    A-->>D: Save JWT
-    A-->>S: 200 OK JWT
-    end
     S->>U: Display Admin Menu
 ```
