@@ -97,33 +97,33 @@ rectangle AdminMenu {
 }
 @enduml
 -->
-![](images/admin.svg)
+![Admin diagram](images/admin.svg)
 
 ## Class diagram
 
 ```mermaid
 classDiagram
 class User{
-    - userId: string
+    + userId: string
     - password: string
-    - email: string
-    - loginStatus: string
-    - role: string
+    + email: string
+    + loginStatus: string
+    + role: string
     + verifyLogin()
+    + register()
     + login()
 }
 
 class Student {
     + courses: List
-    + register()
     + courseInterest()
 }
 
 class Admin {
-    + addLecturer()
-    + addCourse()
-    + editCourse()
-    + adminParticipants()
+    - addLecturer()
+    - addCourse()
+    - editCourse()
+    - adminParticipants()
 }
 
 

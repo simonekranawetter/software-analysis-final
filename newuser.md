@@ -100,4 +100,4 @@ rectangle SignUp {
 }
 @enduml
 -->
-![](images/newuser.svg)
+![New user diagram](images/newuser.svg)
