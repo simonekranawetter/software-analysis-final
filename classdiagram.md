@@ -37,7 +37,7 @@ class SysAdmin{
     + addNewSysAdmin()
 }
 
-SysAdmin o-- User
+SysAdmin o-- User : composition
 User <|-- Student : inheritance
 User <|-- Admin : inheritance
 User <|-- Lecturer : inheritance
