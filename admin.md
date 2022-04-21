@@ -2,7 +2,7 @@
 
 ## User story
 
-**As an admin** on the site, **I want to** have an admin menu, **so that I can** access the functionality availabe admin users on the site
+**As an admin** on the site, **I want to** have an admin menu, **so that I can** access the functionality availabe to admins on the site
 
 ## Activity Diagram
 

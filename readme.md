@@ -42,10 +42,12 @@ You are contracted to build a system to handle courses.
 
 ### Additional features added
 
-Decided to learn Mermaid for this to be able to post this to github instead of uploading a pdf file for my teacher to grade.
+Decided to learn [Mermaid](https://mermaid-js.github.io/mermaid/#/) for this to be able to post this to github instead of uploading a pdf file for my teacher to grade.
 
-### Known issues due to missing features in mermaid
+### Known issues (due to missing features in mermaid)
 
-I am aware that the last part of the sequence diagrams refers to a database. Database symbol is not available in mermaid yet.
++ Database symbol is not available in mermaid sequence diagrams at this point, so the database is just added as a regular square
 
-Right now there is no use case diagram available in mermaid, so those are added as images with the plantUML code commented into the markdown file.
++ Sync actions are marked by black bars and in the diagrams since there was no way to display that in mermaid, could not prevent them from looking a bit off in certain diagrams
+
++ Right now there is no use case diagram available in mermaid, so those are added as images with the [plantUML](https://plantuml.com/) code commented into the markdown file.
