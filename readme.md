@@ -47,9 +47,11 @@ You are contracted to build a system to handle courses.
 + Make sequence diagrams for all stories
 + Make one class diagram (including one or more association, aggregation, composition, implementation, inherritance)
 
-### Additional features added
+## Additional features added
 
 Decided to learn [Mermaid](https://mermaid-js.github.io/mermaid/#/) for this to be able to post this to github instead of uploading a pdf file for my teacher to grade.
+
+---
 
 ### Known issues (due to missing features in mermaid)
 
