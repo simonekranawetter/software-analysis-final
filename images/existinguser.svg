@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="502px" preserveAspectRatio="none" style="width:424px;height:502px;background:#0B58A8;" version="1.1" viewBox="0 0 424 502" width="424px" zoomAndPan="magnify"><defs/><g><!--MD5=[834f0e407384685f90ceee86d353bfa5]
+cluster SignIn--><g id="cluster_SignIn"><rect fill="#0B58A8" height="478" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="177" x="141" y="12.6885"/><text fill="#FFFFFF" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="81" x="189" y="35.1094">SignIn</text></g><g id="elem_fill out form"><ellipse cx="229.6678" cy="306.522" fill="#0B58A8" rx="67.1678" ry="15.8336" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="85" x="184.1678" y="310.2696">fill out form</text></g><g id="elem_validate fields"><ellipse cx="229.6868" cy="157.6258" fill="#0B58A8" rx="72.6868" ry="16.9374" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="100" x="176.6868" y="161.3734">validate fields</text></g><g id="elem_display error"><ellipse cx="229.464" cy="72.8813" fill="#0B58A8" rx="68.964" ry="16.1928" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="90" x="181.464" y="76.6288">display error</text></g><g id="elem_register"><ellipse cx="229.6007" cy="224.9035" fill="#0B58A8" rx="52.6007" ry="14.715" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="57" x="198.1007" y="228.6511">register</text></g><g id="elem_submit form"><ellipse cx="229.6011" cy="458.8087" fill="#0B58A8" rx="68.6011" ry="16.1202" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="89" x="182.1011" y="462.5563">submit form</text></g><g id="elem_validate form"><ellipse cx="229.6781" cy="374.8241" fill="#0B58A8" rx="71.1781" ry="16.6356" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="96" x="178.6781" y="378.5717">validate form</text></g><!--MD5=[8fc3522a43f8c7199df5e09e5bb0188e]
+entity user--><g id="elem_user"><ellipse cx="26" cy="357.1885" fill="#0B58A8" rx="8" ry="8" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M26,365.1885 L26,392.1885 M13,373.1885 L39,373.1885 M26,392.1885 L13,407.1885 M26,392.1885 L39,407.1885 " fill="none" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="30" x="11" y="422.1836">user</text></g><!--MD5=[f9092e7e44fdedd979e7e80664acfb2a]
+entity webapi--><g id="elem_webapi"><ellipse cx="391" cy="429.1885" fill="#0B58A8" rx="8" ry="8" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M391,437.1885 L391,464.1885 M378,445.1885 L404,445.1885 M391,464.1885 L378,479.1885 M391,464.1885 L404,479.1885 " fill="none" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="52" x="365" y="494.1836">webapi</text></g><!--MD5=[52f2bfdb005430aede87c491e1130e05]
+link user to fill out form--><g id="link_user_fill out form"><path d="M41.2737,380.1285 C61.5115,370.9125 99.7826,353.7915 133,340.6885 C151.664,333.3265 172.643,325.7785 190.174,319.6705 " fill="none" id="user-fill out form" style="stroke:#FFFFFF;stroke-width:1.0;"/></g><!--MD5=[54c959c0ab982945b3abfe0335385b5e]
+link fill out form to validate fields--><g id="link_fill out form_validate fields"><path d="M176.752,296.6595 C131.887,285.2875 77.3835,263.0665 95.5,224.1885 C108.7214,195.8155 139.196,179.4185 167.747,170.0095 " fill="none" id="fill out form-to-validate fields" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="172.679,168.4465,162.8909,167.3544,167.9129,169.958,165.3093,174.9801,172.679,168.4465" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="45" x="75.5" y="237.2554">include</text></g><!--MD5=[0d76d2df273fea5b4e4a5900d9e53c7b]
+reverse link validate fields to display error--><g id="link_validate fields_display error"><path d="M229.5,135.2975 C229.5,120.6545 229.5,101.8705 229.5,88.7135 " fill="none" id="validate fields-backto-display error" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="229.5,140.4875,233.5,131.4875,229.5,135.4875,225.5,131.4875,229.5,140.4875" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="52" x="192" y="119.2554">extends</text></g><!--MD5=[16639fc272d216e1ae5deb6abf0eb4cf]
+link fill out form to register--><g id="link_fill out form_register"><path d="M229.5,290.4875 C229.5,277.3025 229.5,258.6355 229.5,244.5505 " fill="none" id="fill out form-to-register" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="229.5,239.2065,225.5,248.2065,229.5,244.2065,233.5,248.2065,229.5,239.2065" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="52" x="192" y="269.5054">extends</text></g><!--MD5=[188c7848d263f7aadb59c53856ce3fd6]
+link user to submit form--><g id="link_user_submit form"><path d="M41.1691,391.7515 C71.9851,402.7625 145.956,429.194 191.182,445.354 " fill="none" id="user-submit form" style="stroke:#FFFFFF;stroke-width:1.0;"/></g><!--MD5=[efd4087d71f964c41155590007bf805f]
+link submit form to validate form--><g id="link_submit form_validate form"><path d="M229.5,442.4925 C229.5,429.4147 229.5,410.8874 229.5,396.5035 " fill="none" id="submit form-to-validate form" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="229.5,391.4095,225.5,400.4095,229.5,396.4095,233.5,400.4095,229.5,391.4095" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="45" x="195.5" y="421.5054">include</text></g><!--MD5=[f818566ccad17de78fe94cb589e9cdb6]
+reverse link validate form to display error--><g id="link_validate form_display error"><path d="M166.193,363.6495 C137.285,354.8675 106.3395,339.1715 92,311.1885 C85.4029,298.3145 78.6771,192.1505 133,122.6885 C146.6,105.2985 167.925,93.3605 187.074,85.5225 " fill="none" id="validate form-backto-display error" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="171.187,365.1055,163.6653,358.7475,166.3866,363.7068,161.4274,366.4282,171.187,365.1055" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="52" x="72" y="307.2554">extends</text></g><!--MD5=[6894f473f0a3cd32408e218d5ae445b0]
+link submit form to webapi--><g id="link_submit form_webapi"><path d="M298.142,458.6885 C321.746,458.6885 346.799,458.6885 364.768,458.6885 " fill="none" id="submit form-webapi" style="stroke:#FFFFFF;stroke-width:1.0;"/></g><!--MD5=[0ac29577057d1290624d6b01fe478f3c]
+@startuml
+!theme amiga
+left to right direction
+skinparam packageStyle rectangle
+actor user
+actor webapi
+
+rectangle SignIn {
+ (user) - - (fill out form)
+ (fill out form) .> (validate fields) : include
+ (validate fields) <. (display error) : extends
+ (fill out form) .> (register) : extends
+ (user) - - (submit form)
+ (submit form) .> (validate form) : include
+ (validate form) <. (display error) : extends
+ (submit form) - - (webapi)
+}
+@enduml
+
+@startuml
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor #0B58A8
+    FontColor #FFFFFF
+    FontName Verdana
+    HyperLinkColor #FDA325
+    LineColor #FFFFFF
+    LineThickness 1
+    Margin 5
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  groupHeader {
+    BackgroundColor #FFFFFF
+    FontColor #0B58A8
+    FontStyle bold
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  referenceHeader {
+    BackgroundColor #FFFFFF
+    FontColor #0B58A8
+    FontStyle bold
+  }
+  separator {
+    BackgroundColor #FFFFFF
+    FontColor #0B58A8
+    FontStyle bold
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor #FFFFFF
+skinparam BackgroundColor #0B58A8
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy nosolid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor #FFFFFF
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor #0B58A8
+  BarColor #FFFFFF
+  BorderColor #FFFFFF
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor #FFFFFF
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor #0B58A8
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor #0B58A8
+  BorderColor #FFFFFF
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam Header {
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color #FDA325
+}
+skinparam IconPackage {
+  Color #FFFFFF
+  BackgroundColor #0B58A8
+}
+skinparam IconPrivate {
+  Color #FFFFFF
+  BackgroundColor #0B58A8
+}
+skinparam IconProtected {
+  Color #FFFFFF
+  BackgroundColor #0B58A8
+}
+skinparam IconPublic {
+  Color #FFFFFF
+  BackgroundColor #0B58A8
+}
+skinparam Note {
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor #FFFFFF
+}
+skinparam Package {
+  BorderColor #FFFFFF
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor #0B58A8
+  BorderColor #FFFFFF
+}
+skinparam StereotypeA {
+  BackgroundColor #FFFFFF
+  BorderColor #FFFFFF
+}
+skinparam StereotypeC {
+  BackgroundColor #FFFFFF
+  BorderColor #FFFFFF
+}
+skinparam StereotypeE {
+  BackgroundColor #FFFFFF
+  BorderColor #FFFFFF
+}
+skinparam StereotypeI {
+  BackgroundColor #FFFFFF
+  BorderColor #FFFFFF
+}
+skinparam StereotypeN {
+  BackgroundColor #FFFFFF
+  BorderColor #FFFFFF
+}
+skinparam UseCaseStereoType {
+  FontColor #FFFFFF
+  FontName Verdana
+}
+left to right direction
+skinparam packageStyle rectangle
+actor user
+actor webapi
+
+rectangle SignIn {
+ (user) - - (fill out form)
+ (fill out form) .> (validate fields) : include
+ (validate fields) <. (display error) : extends
+ (fill out form) .> (register) : extends
+ (user) - - (submit form)
+ (submit form) .> (validate form) : include
+ (validate form) <. (display error) : extends
+ (submit form) - - (webapi)
+}
+@enduml
+
+PlantUML version 1.2022.4beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

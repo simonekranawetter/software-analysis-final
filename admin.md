@@ -97,7 +97,7 @@ rectangle AdminMenu {
 }
 @enduml
 -->
-![](images/admin.jpg)
+![](images/admin.svg)
 
 ## Class diagram
 

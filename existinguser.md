@@ -91,7 +91,7 @@ sequenceDiagram
 
 ## Use Case Diagram
 <!--
-@startuml 
+@startuml
 left to right direction
 skinparam packageStyle rectangle
 actor user
@@ -100,11 +100,13 @@ actor webapi
 rectangle SignIn {
  (user) -- (fill out form)
  (fill out form) .> (validate fields) : include
+ (validate fields) <. (display error) : extends
  (fill out form) .> (register) : extends
  (user) -- (submit form)
  (submit form) .> (validate form) : include
+ (validate form) <. (display error) : extends
  (submit form) -- (webapi)
 }
 @enduml
 -->
-![](images/existinguser.jpg)
+![](images/existinguser.svg)

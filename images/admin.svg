@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="489px" preserveAspectRatio="none" style="width:458px;height:489px;background:#0B58A8;" version="1.1" viewBox="0 0 458 489" width="458px" zoomAndPan="magnify"><defs/><g><!--MD5=[a4e8dcc0191d315ca496cf09d5ed2e08]
+cluster AdminMenu--><g id="cluster_AdminMenu"><rect fill="#0B58A8" height="471" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="211" x="141" y="12.6885"/><text fill="#FFFFFF" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="150" x="171.5" y="35.1094">AdminMenu</text></g><g id="elem_admin menu"><ellipse cx="246.74" cy="299.7365" fill="#0B58A8" rx="68.24" ry="16.048" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="88" x="199.74" y="303.484">admin menu</text></g><g id="elem_register new course"><ellipse cx="246.6728" cy="77.523" fill="#0B58A8" rx="89.6728" ry="20.3346" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="141" x="176.1728" y="80.3697">register new course</text></g><g id="elem_add lecturer"><ellipse cx="246.3807" cy="149.6646" fill="#0B58A8" rx="67.8807" ry="15.9761" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="87" x="199.8807" y="153.4122">add lecturer</text></g><g id="elem_edit course"><ellipse cx="246.42" cy="216.6725" fill="#0B58A8" rx="65.42" ry="15.484" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="80" x="203.42" y="220.42">edit course</text></g><g id="elem_submit form"><ellipse cx="246.6011" cy="451.8087" fill="#0B58A8" rx="68.6011" ry="16.1202" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="89" x="199.1011" y="455.5563">submit form</text></g><g id="elem_validate form"><ellipse cx="246.6781" cy="367.8241" fill="#0B58A8" rx="71.1781" ry="16.6356" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="96" x="195.6781" y="371.5717">validate form</text></g><!--MD5=[8fc3522a43f8c7199df5e09e5bb0188e]
+entity user--><g id="elem_user"><ellipse cx="26" cy="333.1885" fill="#0B58A8" rx="8" ry="8" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M26,341.1885 L26,368.1885 M13,349.1885 L39,349.1885 M26,368.1885 L13,383.1885 M26,368.1885 L39,383.1885 " fill="none" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="30" x="11" y="398.1836">user</text></g><!--MD5=[f9092e7e44fdedd979e7e80664acfb2a]
+entity webapi--><g id="elem_webapi"><ellipse cx="425" cy="333.1885" fill="#0B58A8" rx="8" ry="8" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M425,341.1885 L425,368.1885 M412,349.1885 L438,349.1885 M425,368.1885 L412,383.1885 M425,368.1885 L438,383.1885 " fill="none" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="52" x="399" y="398.1836">webapi</text></g><!--MD5=[490e75653a5e55a9ce0494242b7e2bf8]
+link user to admin menu--><g id="link_user_admin menu"><path d="M41.0005,358.6515 C73.0251,349.4185 152.697,326.4465 202.612,312.0545 " fill="none" id="user-admin menu" style="stroke:#FFFFFF;stroke-width:1.0;"/></g><!--MD5=[23c4146bc673832538e0072af804af3e]
+link admin menu to register new course--><g id="link_admin menu_register new course"><path d="M178.765,301.6005 C148.253,298.5815 114.719,289.0625 95,264.1885 C80.3177,245.6685 41.1636,211.4425 133,115.6885 C143.209,105.0435 156.482,97.3805 170.334,91.8645 " fill="none" id="admin menu-to-register new course" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="175.051,90.0745,165.2173,89.5287,170.3764,91.8489,168.0563,97.008,175.051,90.0745" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="52" x="72" y="260.2554">extends</text></g><!--MD5=[0873b2d13cc2ab1db5b8ee76185f7c89]
+link admin menu to add lecturer--><g id="link_admin menu_add lecturer"><path d="M203.201,287.2405 C146.521,268.7775 58.4408,231.3045 95,185.1885 C113.641,161.6745 144.626,151.8825 173.735,148.3315 " fill="none" id="admin menu-to-add lecturer" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="178.765,147.7765,169.3805,144.788,173.7952,148.325,170.2582,152.7397,178.765,147.7765" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="52" x="72" y="198.2554">extends</text></g><!--MD5=[1f8b41b462c9c120a1cdc536643f91f4]
+link admin menu to edit course--><g id="link_admin menu_edit course"><path d="M246.5,283.6855 C246.5,270.5115 246.5,251.7415 246.5,237.4185 " fill="none" id="admin menu-to-edit course" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="246.5,232.3615,242.5,241.3615,246.5,237.3615,250.5,241.3615,246.5,232.3615" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="52" x="209" y="262.5054">extends</text></g><!--MD5=[188c7848d263f7aadb59c53856ce3fd6]
+link user to submit form--><g id="link_user_submit form"><path d="M41.0005,368.3915 C75.0031,382.2415 162.721,417.9706 211.503,437.8406 " fill="none" id="user-submit form" style="stroke:#FFFFFF;stroke-width:1.0;"/></g><!--MD5=[efd4087d71f964c41155590007bf805f]
+link submit form to validate form--><g id="link_submit form_validate form"><path d="M246.5,435.4925 C246.5,422.4147 246.5,403.8874 246.5,389.5035 " fill="none" id="submit form-to-validate form" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="246.5,384.4095,242.5,393.4095,246.5,389.4095,250.5,393.4095,246.5,384.4095" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="45" x="212.5" y="414.5054">include</text></g><!--MD5=[6894f473f0a3cd32408e218d5ae445b0]
+link submit form to webapi--><g id="link_submit form_webapi"><path d="M281.512,437.9241 C304.113,428.4503 334.254,415.1824 360,401.6885 C373.138,394.8025 387.266,386.3155 398.898,379.0195 " fill="none" id="submit form-webapi" style="stroke:#FFFFFF;stroke-width:1.0;"/></g><!--MD5=[de9bad85c1277fb35f403c4e4fb9d57c]
+reverse link admin menu to webapi--><g id="link_admin menu_webapi"><path d="M296.991,313.1145 C316.782,318.8795 339.663,326.0465 360,333.6885 C373.018,338.5805 387.133,344.8665 398.787,350.3345 " fill="none" id="admin menu-backto-webapi" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="292.029,311.6795,299.5622,318.0238,296.8319,313.0695,301.7862,310.3392,292.029,311.6795" style="stroke:#FFFFFF;stroke-width:1.0;"/></g><!--MD5=[17d3726938618ab2ac7e8dd82970cb0a]
+@startuml
+!theme amiga
+left to right direction
+skinparam packageStyle rectangle
+actor user
+actor webapi
+
+rectangle AdminMenu {
+ (user) - - (admin menu)
+ (admin menu) .> (register new course) : extends
+ (admin menu) .> (add lecturer) : extends
+ (admin menu) .> (edit course) : extends
+ (user) - - (submit form)
+ (submit form) .> (validate form) : include
+ (submit form) - - (webapi)
+ (admin menu) <- - (webapi)
+}
+@enduml
+
+@startuml
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor #0B58A8
+    FontColor #FFFFFF
+    FontName Verdana
+    HyperLinkColor #FDA325
+    LineColor #FFFFFF
+    LineThickness 1
+    Margin 5
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  groupHeader {
+    BackgroundColor #FFFFFF
+    FontColor #0B58A8
+    FontStyle bold
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  referenceHeader {
+    BackgroundColor #FFFFFF
+    FontColor #0B58A8
+    FontStyle bold
+  }
+  separator {
+    BackgroundColor #FFFFFF
+    FontColor #0B58A8
+    FontStyle bold
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor #FFFFFF
+skinparam BackgroundColor #0B58A8
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy nosolid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor #FFFFFF
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor #0B58A8
+  BarColor #FFFFFF
+  BorderColor #FFFFFF
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor #FFFFFF
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor #0B58A8
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor #0B58A8
+  BorderColor #FFFFFF
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam Header {
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color #FDA325
+}
+skinparam IconPackage {
+  Color #FFFFFF
+  BackgroundColor #0B58A8
+}
+skinparam IconPrivate {
+  Color #FFFFFF
+  BackgroundColor #0B58A8
+}
+skinparam IconProtected {
+  Color #FFFFFF
+  BackgroundColor #0B58A8
+}
+skinparam IconPublic {
+  Color #FFFFFF
+  BackgroundColor #0B58A8
+}
+skinparam Note {
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor #FFFFFF
+}
+skinparam Package {
+  BorderColor #FFFFFF
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor #0B58A8
+  BorderColor #FFFFFF
+}
+skinparam StereotypeA {
+  BackgroundColor #FFFFFF
+  BorderColor #FFFFFF
+}
+skinparam StereotypeC {
+  BackgroundColor #FFFFFF
+  BorderColor #FFFFFF
+}
+skinparam StereotypeE {
+  BackgroundColor #FFFFFF
+  BorderColor #FFFFFF
+}
+skinparam StereotypeI {
+  BackgroundColor #FFFFFF
+  BorderColor #FFFFFF
+}
+skinparam StereotypeN {
+  BackgroundColor #FFFFFF
+  BorderColor #FFFFFF
+}
+skinparam UseCaseStereoType {
+  FontColor #FFFFFF
+  FontName Verdana
+}
+left to right direction
+skinparam packageStyle rectangle
+actor user
+actor webapi
+
+rectangle AdminMenu {
+ (user) - - (admin menu)
+ (admin menu) .> (register new course) : extends
+ (admin menu) .> (add lecturer) : extends
+ (admin menu) .> (edit course) : extends
+ (user) - - (submit form)
+ (submit form) .> (validate form) : include
+ (submit form) - - (webapi)
+ (admin menu) <- - (webapi)
+}
+@enduml
+
+PlantUML version 1.2022.4beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -91,11 +91,13 @@ actor webapi
 rectangle SignUp {
  (user) -- (fill out form)
  (fill out form) .> (validate fields) : include
+ (validate fields) <. (display error) : extends
  (fill out form) .> (existing user) : extends
  (user) -- (submit form)
  (submit form) .> (validate form) : include
+ (validate form) <. (display error) : extends
  (submit form) -- (webapi)
 }
 @enduml
 -->
-![](images/newuser.jpg)
+![](images/newuser.svg)
