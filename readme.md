@@ -9,18 +9,25 @@ That is knowledge the customer doesn't have, but it's your job as a developer to
 
 You are contracted to build a system to handle courses.
 
-+ A user should be able to regiser and log in with email and password.
-+ In the system there's even administrators. Those administrators are added by a system administrator or by other administrators with the right administrative roles.
-+ Systemadmin has an account from the start and is a non-removable role without first assigning system admin to another admin.
++ A user should be able to register and log in with email and password.
++ In the system there's even administrators. Those administrators are added by a system-administrator or by other administrators with the right administrative roles.
++ Sys-admin has an account from the start and is a non-removable role without first assigning system admin to another admin.
+
+---
 
 + Admins should be able to add lecturers to the system and add users and admin users.
 + A user should be able to express interest in a course in the system.
 + Only admins can allow users to attend courses
 
+---
+
 + A lecturer should be able to see all of the courses added to them and should be able to structure the course content.
 + There should be the possibility for a lecturer to schedule meetings and there should be the possibility to upload course material on the course site.
 + On the course site a lecturer should have the ability to post course criteria so both lecturer and the attendees can read what the course is about.
 + Only lecturers and admins should be able to edit the info about the course and course files etc.
+
+---
+
 + A user should be able to see the course description, schedule and be able to join a meeting.
 + Users should be able to write a comment in a forum site on the course site.
 + Users should even be able to watch lectures after the fact.
