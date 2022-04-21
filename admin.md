@@ -98,3 +98,35 @@ rectangle AdminMenu {
 @enduml
 -->
 ![](images/admin.jpg)
+
+## Class diagram
+
+```mermaid
+classDiagram
+class User{
+    - userId: string
+    - password: string
+    - email: string
+    - loginStatus: string
+    - role: string
+    + verifyLogin()
+    + login()
+}
+
+class Student {
+    + courses: List
+    + register()
+    + courseInterest()
+}
+
+class Admin {
+    + addLecturer()
+    + addCourse()
+    + editCourse()
+    + adminParticipants()
+}
+
+
+User <|-- Student : inheritance
+User <|-- Admin : inheritance
+```
